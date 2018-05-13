@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>physip</title>
-    <link>http://example.org/</link>
-    <description>Recent content on physip</description>
+    <title>Physdemy</title>
+    <link>physdemy.github.io/</link>
+    <description>Recent content on Physdemy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 13 May 2018 21:01:52 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="physdemy.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ニュートンの三法則</title>
-      <link>http://example.org/mechanics/01/</link>
+      <link>physdemy.github.io/mechanics/01/</link>
       <pubDate>Sun, 13 May 2018 21:01:52 +0900</pubDate>
       
-      <guid>http://example.org/mechanics/01/</guid>
+      <guid>physdemy.github.io/mechanics/01/</guid>
       <description>物理学の始まり いつが物理学の始まりかというのは諸説あるが、最もよく知られているのはニュートンの業績だろう。ニュートンは運動
 ニュートンの三法則 ニュートンは自著「プリンキピア」に運動の基礎となる三法則を記述した。 * 第一法則 いろんなことがあるよね * 第二法則 ある質点に働く力を$F$、質量を$m$、加速度を$a$とすると \begin{equation} F=ma \end{equation} と書ける。 * 第三法則 作用反作用の法則とも呼ばれる。</description>
     </item>
     
     <item>
       <title>ベクトルの復習</title>
-      <link>http://example.org/matrix/01/</link>
+      <link>physdemy.github.io/matrix/01/</link>
       <pubDate>Tue, 13 Feb 2018 23:46:01 +0900</pubDate>
       
-      <guid>http://example.org/matrix/01/</guid>
+      <guid>physdemy.github.io/matrix/01/</guid>
       <description>ベクトル 線形代数を学ぶ前にベクトルについて復習しておこう。 $\bm{x}=(2,3)$とすると、次のことが言える。 \begin{align} \sum_{i=1}^{n}i = \frac{1}{2}n(n+1) \end{align}</description>
     </item>
     
