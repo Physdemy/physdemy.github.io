@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ベクトルの復習 - Physdemy</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML&locale=ja' async></script>
+  
+  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-indigo.min.css" />
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  <link rel="stylesheet" href="http://example.org//styles.css">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ["\\(","\\)"]]
+      },
+      TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        Macros:{
+          grad:   ['\\mathrm{grad}\\,'],
+          diver:  ['\\mathrm{div}\\,'],
+          rot:    ['\\mathrm{rot}\\,'],
+          bm:     ['{\\boldsymbol{#1}}', 1],
+        }
+      },
+      "HTML-CSS": {
+        availableFonts: ["STIX"],
+        preferredFont: "STIX",
+        webFont: "STIX-Web",
+        matchFontHeight: true,
+        mtextFontInherit: true
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-100">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        
+        <span class="title mdl-layout-title">
+          <a href="http://example.org/">Physdemy</a>
+        </span>
+        
+        <div class="mdl-layout-spacer"></div>
+        
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="http://example.org//mathmatics/">物理数学</a>
+          <a class="mdl-navigation__link" href="http://example.org//mechanics/">力学</a>
+          <a class="mdl-navigation__link" href="http://example.org//analytical_mechanics/">解析力学</a>
+          <a class="mdl-navigation__link" href="http://example.org//electromagnetics/">電磁気学</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+      <span class="title mdl-layout-title">Physdemy</span>
+      <span class="subtitle">The Academy for Physics</span>
+      <nav class="mdl-navigation mdl-color-text--blue-grey-50">
+        <a class="mdl-navigation__link" href="index.html">トップページ</a>
+        <a class="mdl-navigation__link" href="about.html">はじめに</a>
+        <div class="android-drawer-separator"></div>
+        <a class="mdl-navigation__link" href="http://example.org//mathmatics/">物理数学</a>
+        <a class="mdl-navigation__link" href="http://example.org//mechanics/">力学</a>
+        <a class="mdl-navigation__link" href="http://example.org//analytical_mechanics/">解析力学</a>
+        <a class="mdl-navigation__link" href="http://example.org//electromagnetics/">電磁気学</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="mcontent mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">  
+<div class="mdl-color-text--grey-500">
+  <a itemprop="item" href="/">
+    <span itemprop="name">Physdemy</span>
+  </a>
+  >
+  <meta itemprop="position" content="1" />                     
+  <span itemprop="name">ベクトルの復習</span>
+  <meta itemprop="position" content="1" />               
+</div>
+<h1 class="mdl-typography--text-center">ベクトルの復習</h1>
+<hr> 
+
+<h2 id="ベクトル">ベクトル</h2>
+
+<p>線形代数を学ぶ前にベクトルについて復習しておこう。
+$\bm{x}=(2,3)$とすると、次のことが言える。
+\begin{align}
+\sum_{i=1}^{n}i = \frac{1}{2}n(n+1)
+\end{align}</p>
+ </div>
+</div>
+</div>
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="title mdl-logo">Physdemy</div>
+    <ul class="mdl-mini-footer__link-list">
+      <li>
+        <a href="#">Help</a>
+      </li>
+      <li>
+        <a href="#">Privacy & Terms</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="mdl-mini-footer__right-section">
+    Copyright &copy; 2018 Crown.
+  </div>
+</footer>
+</main>
+</div>
+<script>
+  renderMathInElement(document.body, {
+    delimiters: [
+      { left: "\\[", right: "\\]", display: true },
+      { left: "$", right: "$", display: false }
+    ]
+  });
+</script>
+</body>
+
+</html>

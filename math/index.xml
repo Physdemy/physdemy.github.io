@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maths on physip</title>
+    <link>http://example.org/math/</link>
+    <description>Recent content in Maths on physip</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 13 Feb 2018 23:46:01 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>線形代数</title>
+      <link>http://example.org/math/matrix1/</link>
+      <pubDate>Tue, 13 Feb 2018 23:46:01 +0900</pubDate>
+      
+      <guid>http://example.org/math/matrix1/</guid>
+      <description>ベクトル 線形代数を学ぶ前にベクトルについて復習しておこう。 $\bm{x}=(2,3)$</description>
+    </item>
+    
+  </channel>
+</rss>
